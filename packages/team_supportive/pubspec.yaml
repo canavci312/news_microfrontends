@@ -1,0 +1,43 @@
+name: team_supportive
+description: team which is responsible for showing related news
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  pretty_dio_logger: ^1.1.1
+  dio: ^4.0.6
+  bloc: ^8.0.3
+  rxdart: ^0.27.3
+  flutter:
+    sdk: flutter
+  equatable: any
+  json_annotation: any
+  freezed_annotation: any
+  flutter_bloc: ^8.0.1
+  flutter_localizations:
+    sdk: flutter
+  json_serializable: any
+  build_runner: any
+  freezed: any
+  intl: ^0.17.0
+  firebase_core: ^1.17.0
+  get_it: ^7.2.0
+  cloud_firestore: ^3.1.15
+  rake:
+    git:
+      url: https://github.com/anu788/dart-rake.git
+dev_dependencies:
+  bloc_test: ^9.0.3
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  generate: false
+  assets:
+    - packages/team_supportive/assets/image_unavailable.png

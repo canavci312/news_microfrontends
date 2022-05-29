@@ -1,0 +1,44 @@
+name: team_listing
+description: team which is responsible for news dispaying part of the app
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  team_social:
+    path: ../team_social
+  team_supportive:
+    path: ../team_supportive
+  pretty_dio_logger: ^1.1.1
+  dio: ^4.0.6
+  bloc: ^8.0.3
+  flutter:
+    sdk: flutter
+  equatable: any
+  json_annotation: any
+  rxdart: ^0.27.3
+  freezed_annotation: any
+  flutter_bloc: ^8.0.1
+  flutter_localizations:
+    sdk: flutter
+  json_serializable: any
+  build_runner: any
+  freezed: any
+  intl: ^0.17.0
+  firebase_core: ^1.17.0
+  get_it: ^7.2.0
+  cloud_firestore: ^3.1.15
+dev_dependencies:
+  bloc_test: ^9.0.3
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - packages/team_listing/assets/image_unavailable.png
